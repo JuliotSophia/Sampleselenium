@@ -10,10 +10,10 @@ public class Samp {
 		
 		 System.setProperty("webdriver.chromedriver","E:\\gokila\\chromedriver.exe");
 	     WebDriver driver = new FirefoxDriver();		
-	     driver.get("https://www.facebook.com/");
-	     	driver.exit();
-			driver.quit();
-		
+	     driver.get("https://www.irctc.com/");
+	     	driver.getUrl();
+			driver.currentUrl();
+
 		
 		
 	}
