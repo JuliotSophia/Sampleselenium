@@ -12,7 +12,8 @@ public class Samp {
 	     WebDriver driver = new FirefoxDriver();		
 	     driver.get("https://www.google.com/");
                 driver.getTitle();
-	     	driver.exit();
+				driver.CurrentUrl();
+	     	    driver.exit();
 			 //newly added//
 
 		
