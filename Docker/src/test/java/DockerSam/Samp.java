@@ -13,7 +13,7 @@ public class Samp {
 	     driver.get("https://www.google.com/");
                 driver.getTitle();
 				driver.CurrentUrl();
-	     	    driver.exit();
+	     	    //driver.exit();
 			 //newly added//
 
 		
